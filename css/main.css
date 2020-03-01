@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navi {
+    background-color: cornflowerblue;
+}
+
+.navi ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navi ul li {
+    height: 20%;
+    list-style: none;
+}
+
+.navi ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+}
