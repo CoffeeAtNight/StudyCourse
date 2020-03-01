@@ -14,12 +14,28 @@
 }
 
 .navi ul li {
+    margin: 5px;
     height: 20%;
     list-style: none;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+    padding: 5px;
 }
 
 .navi ul li a {
     color: white;
     text-decoration: none;
     font-family: arial, sans-serif;
+    height: 100%;
+}
+
+li:hover {
+    background-color: white
+}
+
+.navi ul li:hover a {
+    color: black;
 }
